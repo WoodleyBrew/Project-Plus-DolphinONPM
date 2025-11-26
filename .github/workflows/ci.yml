@@ -312,7 +312,7 @@ jobs:
         cd $GITHUB_WORKSPACE
         mkdir -p squashfs-root
         cp -a build/install/usr $GITHUB_WORKSPACE/squashfs-root/
-        cp Data/project-plus-dolphinONPMG.svg ./squashfs-root/project-plus-dolphinONPM.svg
+        cp Data/project-plus-dolphinONPM.svg ./squashfs-root/project-plus-dolphinONPM.svg
         cp Data/project-plus-dolphinONPM.desktop ./squashfs-root/project-plus-dolphinONPM.desktop
         curl -sSfL https://github.com/AppImage/AppImageKit/releases/download/continuous/runtime-x86_64 -o ./squashfs-root/runtime
         curl -sSfL "https://github.com/RPCS3/AppImageKit-checkrt/releases/download/continuous2/AppRun-patched-x86_64" -o ./squashfs-root/AppRun-patched

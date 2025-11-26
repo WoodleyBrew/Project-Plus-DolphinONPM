@@ -1,6 +1,6 @@
 #!/bin/bash
 
-mkdir -p $HOME/.local/share/icons/hicolor/scalable/apps && cp $APPDIR/project-plus-dolphinONPMG.svg $HOME/.local/share/icons/hicolor/scalable/apps
+mkdir -p $HOME/.local/share/icons/hicolor/scalable/apps && cp $APPDIR/project-plus-dolphinONPM.svg $HOME/.local/share/icons/hicolor/scalable/apps
 mkdir -p $HOME/.local/share/project-plus-dolphinONPM && cp -R $APPDIR/usr/share/project-plus-dolphinONPM $HOME/.local/share/
 
 GITVER=$(wget -qO- https://www.github.com/WoodleyBrew/Project-Plus-DolphinONPM/releases/latest | grep '<p>DOLPHIN' | awk '{print $NF}' | cut -d '<' -f 1)
