@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Icon=project-plus-dolphinONPM
+Exec=project-plus-dolphinONPM
+Terminal=false
+Type=Application
+Categories=Game;Emulator;
+Name=Project+ Dolphin
+GenericName=Wii/GameCube Emulator
+Comment=A Wii/GameCube Emulator
