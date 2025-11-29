@@ -110,8 +110,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/WoodleyBrew/Project-Plus-DolphinONPM
-        tag: v3.1.5_03.1  													#uncomment and update these two lines to build a specific commit
-        commit: 6efd4d3fa81e8a5854c55b16c5b6870dd6b5d35f
+        tag: v3.1.5_03  													#uncomment and update these two lines to build a specific commit
+        commit: 6efd4d3fa81e8a5854c55b16c5b6870dd6bFUCKS
         
       # TODO: Add x-checker-data
       # Project Plus SD card
@@ -122,7 +122,7 @@ modules:
       # TODO: Add x-checker-data
       # Project Plus .dol files and icon
       - type: archive
-        url: https://github.com/WoodleyBrew/Project-Plus-DolphinONPM/releases/download/Launcher/Launcher.tar.gz
+        url: https://github.com/WoodleyBrew/Badnik-Stream-Tool-NGPR/releases/download/Buggington/Launcher.tar.gz
         sha256: cb89ed804abe6d75ca72f61f859c35f26ab430bc603f0389be4c035d159b93a3                  # This is the hash of the tar.gz file not the uncompressed
         dest: Launcher
 
