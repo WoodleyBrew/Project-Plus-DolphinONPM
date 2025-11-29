@@ -5,7 +5,7 @@
 
 This fork is a heavily modified version of the Dolphin Emulator designed for usage with Project+ ONPM. It includes the following features:
 
-  * Branding, theming and iconography updates to match the Project+ aesthetic
+  * Branding, theming and iconography updates to match the Project+ONPM aesthetic
   * Netplay button on the toolbar
   * Update button on the toolbar
   * Specific aspect ratios (19:15 and 69:40 for regular and widescreen, respectively)
