@@ -20,8 +20,7 @@
 		<id>org.projectplusgame.project-plus-dolphinONPM.desktop</id>
 	</provides>
 	<releases>
-		<release version="3.1.5_03" date="2025-11-26"/>
-		<release version="3.1.5_03.1" date="2025-11-28"/>
+		<release version="3.1.5_03" date="2025-11-29"/>
 	</releases>
 	<launchable type="desktop-id">org.projectplusgame.project-plus-dolphinONPM.desktop</launchable>
 </component>
