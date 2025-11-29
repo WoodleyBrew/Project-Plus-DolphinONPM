@@ -110,8 +110,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/WoodleyBrew/Project-Plus-DolphinONPM
-        tag: v3.1.5  													#uncomment and update these two lines to build a specific commit
-        commit: 3c8923fde894826fe2adcb7cb6f1279e4dabb28a
+        tag: v3.1.5_03  													#uncomment and update these two lines to build a specific commit
+        commit: c6e7e0a636842b058ffd605a608b887e0f94f5c7 
         
       # TODO: Add x-checker-data
       # Project Plus SD card
@@ -122,8 +122,8 @@ modules:
       # TODO: Add x-checker-data
       # Project Plus .dol files and icon
       - type: archive
-        url: https://github.com/jlambert360/FPM-AppImage/releases/download/v3.1.2/Launcher.tar.gz
-        sha256: 1b9dce2fb0eac3ad8cc809826b3b6bfd4ce30dbfc394eaa586e35dcd356fd189                  # This is the hash of the tar.gz file not the uncompressed
+        url: https://github.com/WoodleyBrew/Project-Plus-DolphinONPM/releases/download/Launcher/Launcher.tar.gz
+        sha256: ba2198879007c929bb052ac70d8317bd49b254c09498f5deb57ded97fa0d8157                  # This is the hash of the tar.gz file not the uncompressed
         dest: Launcher
 
       # TODO: Add x-checker-data
