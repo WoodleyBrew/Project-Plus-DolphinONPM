@@ -111,7 +111,7 @@ modules:
       - type: git
         url: https://github.com/WoodleyBrew/Project-Plus-DolphinONPM
         tag: v3.1.5_03  													#uncomment and update these two lines to build a specific commit
-        commit: c6e7e0a636842b058ffd605a608b887e0f94f5c7 
+        commit: b664d15c7bf0c38b0be3927a295d6ec5f1b6e7d8 
         
       # TODO: Add x-checker-data
       # Project Plus SD card
