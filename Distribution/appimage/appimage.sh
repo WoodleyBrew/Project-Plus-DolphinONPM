@@ -77,7 +77,7 @@ mkdir $HOME/artifacts/
 mkdir -p /dolphin/artifacts/
 mv Project+_DolphinONPM-x86_64.AppImage* $HOME/artifacts
 cp -R $HOME/artifacts/ /dolphin/
-cp $BUILDBIN/project-plus-dolphiONPMn /dolphin/artifacts
+cp $BUILDBIN/project-plus-dolphinONPM /dolphin/artifacts
 chmod -R 777 /dolphin/artifacts
 cd /dolphin/artifacts
 ls -al /dolphin/artifacts/
