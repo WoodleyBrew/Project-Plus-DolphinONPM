@@ -110,7 +110,7 @@ modules:
     sources:
       - type: git
         url: https://github.com/WoodleyBrew/Project-Plus-DolphinONPM
-        tag: v3.1.5_03.1  													#uncomment and update these two lines to build a specific commit
+        tag: v3.1.5_  													#uncomment and update these two lines to build a specific commit
         commit: 4603b5b3c1846dca80dd28390199c3b5e815e121 
         
       # TODO: Add x-checker-data
@@ -123,7 +123,7 @@ modules:
       # Project Plus .dol files and icon
       - type: archive
         url: https://github.com/WoodleyBrew/Project-Plus-DolphinONPM/releases/download/Launcher/Launcher.tar.gz
-        sha256: ba2198879007c929bb052ac70d8317bd49b254c09498f5deb57ded97fa0d8157                  # This is the hash of the tar.gz file not the uncompressed
+        sha256: cb89ed804abe6d75ca72f61f859c35f26ab430bc603f0389be4c035d159b93a3                  # This is the hash of the tar.gz file not the uncompressed
         dest: Launcher
 
       # TODO: Add x-checker-data
