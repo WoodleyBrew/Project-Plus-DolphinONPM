@@ -23,16 +23,16 @@ mkdir -p /var/config/project-plus-dolphinONPM
 #     mkdir -p /var/data/project-plus-dolphinONPM/Load
 
 #     echo "Copy newer SD card to user data directory"
-#     cp /app/share/project-plus-dolphinONPM/sys/Load/WiiSD.raw /var/data/project-plus-dolphin/Load/WiiSD.raw
+#     cp /app/share/project-plus-dolphinONPM/sys/Load/WiiSD.raw /var/data/project-plus-dolphinONPM/Load/WiiSD.raw
 # else
 #     echo "SD card is already at latest version"
 # fi
 
 echo "Copy dol files to user data directory if they don't already exist"
-cp -nr /app/share/project-plus-dolphinONPM/sys/Wii/Launcher /var/data/project-plus-dolphin/user/Wii/
+cp -nr /app/share/project-plus-dolphinONPM/sys/Wii/Launcher /var/data/project-plus-dolphinONPM/user/Wii/
 
 echo "Copy user directory to Flatpak user data directory (Overwritting any files already there with any newer files)"
-cp -ru /app/share/project-plus-dolphinONPM/user /var/data/project-plus-dolphin/
+cp -ru /app/share/project-plus-dolphinONPM/user /var/data/project-plus-dolphinONPM/
 
 # Create and set variables for the system and user HD textures creation dates
 SystemHDTexturesCreationDate=`stat --format="%W" /app/share/project-plus-dolphinONPM/sys/Load/Textures/RSBE01`
@@ -45,10 +45,10 @@ then
     mkdir -p /var/data/project-plus-dolphinONPM/Load/Textures
 
     echo "Copy newer HD textures to user data directory"
-    cp -r /app/share/project-plus-dolphinONPM/sys/Load/Textures/RSBE01 /var/data/project-plus-dolphin/user/Load/Textures
+    cp -r /app/share/project-plus-dolphinONPM/sys/Load/Textures/RSBE01 /var/data/project-plus-dolphinONPM/user/Load/Textures
 else
     echo "HD textures are already at latest version"
 fi
 
 # Launch Dolphin and point it to the user directory
-project-plus-dolphin -u /var/data/project-plus-dolphinONPM/user "$@"
+project-plus-dolphinONPM -u /var/data/project-plus-dolphinONPM/user "$@"
